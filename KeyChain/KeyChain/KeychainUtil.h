@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface KeyChainUtil : NSObject
+@interface KeychainUtil : NSObject
 
 + (BOOL)saveData:(id)data key:(NSString *)key;
 

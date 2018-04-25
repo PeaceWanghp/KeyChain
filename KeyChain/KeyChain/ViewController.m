@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "KeyChainUtil.h"
+#import "KeychainUtil.h"
 
 static NSString *key = @"test_key";
 
@@ -49,7 +49,7 @@ static NSString *key = @"test_key";
 
 - (void)addAction {
     NSString *text = @"wangheping";
-    NSLog(@"Add text(%@) key(%@) value:%d",text,key,[KeyChainUtil saveData:text key:key]);
+    NSLog(@"Add text(%@) key(%@) value:%d",text,key,[KeychainUtil saveData:text key:key]);
 }
 
 #pragma mark -
@@ -65,7 +65,7 @@ static NSString *key = @"test_key";
 }
 
 - (void)deleteAction {
-    NSLog(@"Delete key(%@) value:%d",key,[KeyChainUtil deleteDataWithKey:key]);
+    NSLog(@"Delete key(%@) value:%d",key,[KeychainUtil deleteDataWithKey:key]);
 }
 
 #pragma mark -
@@ -82,7 +82,7 @@ static NSString *key = @"test_key";
 
 - (void)updateAction {
     NSString *text = @"zhang na";
-    NSLog(@"Update text(%@) key(%@) value:%d",text,key,[KeyChainUtil saveData:text key:key]);
+    NSLog(@"Update text(%@) key(%@) value:%d",text,key,[KeychainUtil saveData:text key:key]);
 }
 
 #pragma mark -
@@ -98,7 +98,7 @@ static NSString *key = @"test_key";
 }
 
 - (void)getAction {
-    NSLog(@"Get text(%@) key(%@)",[KeyChainUtil dataWithKey:key],key);
+    NSLog(@"Get text(%@) key(%@)",[KeychainUtil dataWithKey:key],key);
 }
 
 @end

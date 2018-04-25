@@ -6,9 +6,9 @@
 //  Copyright © 2018 peace. All rights reserved.
 //
 
-#import "KeyChainUtil.h"
+#import "KeychainUtil.h"
 
-@implementation KeyChainUtil
+@implementation KeychainUtil
 
 + (BOOL)saveData:(id)data key:(NSString *)key {
     if ([self dataWithKey:key]) {

@@ -13,7 +13,7 @@
 		CE99B2D220906C4A00A8325C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE99B2D120906C4A00A8325C /* Assets.xcassets */; };
 		CE99B2D520906C4A00A8325C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE99B2D320906C4A00A8325C /* LaunchScreen.storyboard */; };
 		CE99B2D820906C4A00A8325C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE99B2D720906C4A00A8325C /* main.m */; };
-		CE99B2E020906D4500A8325C /* KeyChainUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CE99B2DF20906D4500A8325C /* KeyChainUtil.m */; };
+		CE99B2E020906D4500A8325C /* KeychainUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CE99B2DF20906D4500A8325C /* KeychainUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		CE99B2D420906C4A00A8325C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE99B2D620906C4A00A8325C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE99B2D720906C4A00A8325C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE99B2DE20906D4500A8325C /* KeyChainUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyChainUtil.h; sourceTree = "<group>"; };
-		CE99B2DF20906D4500A8325C /* KeyChainUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyChainUtil.m; sourceTree = "<group>"; };
+		CE99B2DE20906D4500A8325C /* KeychainUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeychainUtil.h; sourceTree = "<group>"; };
+		CE99B2DF20906D4500A8325C /* KeychainUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeychainUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 				CE99B2C920906C4800A8325C /* AppDelegate.m */,
 				CE99B2CB20906C4800A8325C /* ViewController.h */,
 				CE99B2CC20906C4800A8325C /* ViewController.m */,
-				CE99B2DE20906D4500A8325C /* KeyChainUtil.h */,
-				CE99B2DF20906D4500A8325C /* KeyChainUtil.m */,
+				CE99B2DE20906D4500A8325C /* KeychainUtil.h */,
+				CE99B2DF20906D4500A8325C /* KeychainUtil.m */,
 				CE99B2CE20906C4800A8325C /* Main.storyboard */,
 				CE99B2D120906C4A00A8325C /* Assets.xcassets */,
 				CE99B2D320906C4A00A8325C /* LaunchScreen.storyboard */,
@@ -149,7 +149,7 @@
 				CE99B2CD20906C4800A8325C /* ViewController.m in Sources */,
 				CE99B2D820906C4A00A8325C /* main.m in Sources */,
 				CE99B2CA20906C4800A8325C /* AppDelegate.m in Sources */,
-				CE99B2E020906D4500A8325C /* KeyChainUtil.m in Sources */,
+				CE99B2E020906D4500A8325C /* KeychainUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
